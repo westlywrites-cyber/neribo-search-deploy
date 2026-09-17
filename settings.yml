@@ -1,0 +1,11 @@
+use_default_settings: true
+
+server:
+  secret_key: "will-be-overridden-by-env"
+  limiter: false
+  public_instance: false
+
+search:
+  formats:
+    - html
+    - json
